@@ -1,0 +1,65 @@
+.digimon {
+    background-image: url(../img/Fondo\ Digimon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+}
+
+.titulo {
+    color: #eff6e0;
+    background-color: rgb(21, 30, 63, 45%);
+    text-align: center;
+}
+
+.paginadigimon {
+    padding: 20px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: minmax(200px, auto);
+    grid-template-rows: minmax(200px, auto);
+    justify-items: right;
+    grid-template-areas: 
+    "digiizquierda1" "digiizquieda1"
+    "digiderecha1" "digiderecha"
+    "digiizquierda2" "digiizquierda2"
+    "digiderecha2" "digiderecha2"
+    ;
+}
+
+.digiizquierda1 {
+    margin: 2rem;
+    color: white;
+    background-color: rgb(21, 30, 63, 65%);
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    grid-area: digiizquierda1;
+    text-align: left;
+}
+.digiderecha1 {
+    margin: 2rem;
+    color: white;
+    background-color: rgb(21, 30, 63, 65%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: digiderecha1;
+}
+.digiizquierda2 {
+    margin: 2rem;
+    color: white;
+    background-color: rgb(21, 30, 63, 65%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: digiizquierda2;
+}
+.digiderecha2 {
+    margin: 2rem;
+    color: white;
+    background-color: rgb(21, 30, 63, 65%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: digiderecha2;
+}
