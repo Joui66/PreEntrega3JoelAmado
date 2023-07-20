@@ -1,0 +1,201 @@
+.img {
+  background-image: url(../img/1124772.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+}
+
+.index {
+  color: red;
+  text-align: center;
+}
+
+.parrafo {
+  color: rgb(65, 19, 19);
+  background-color: rgba(150, 192, 183, 0.15);
+  text-align: center;
+}
+
+.centrar {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.fotosindex {
+  width: 250px;
+  height: 250px;
+  gap: end;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 100vw;
+  min-height: 100vh;
+}
+
+.contenedor {
+  margin: 2rem;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.digimon {
+  background-image: url(../img/Fondo\ Digimon.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+}
+
+.titulo {
+  color: #eff6e0;
+  background-color: rgba(21, 30, 63, 0.45);
+  text-align: center;
+}
+
+.paginadigimon {
+  padding: 20px;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: minmax(200px, auto);
+  grid-template-rows: minmax(200px, auto);
+  justify-items: right;
+  grid-template-areas: "digiizquierda1" "digiizquieda1" "digiderecha1" "digiderecha1" "digiizquierda2" "digiizquierda2" "digiderecha2" "digiderecha2";
+}
+
+.digiizquierda1 {
+  margin: 2rem;
+  color: white;
+  background-color: rgba(21, 30, 63, 0.65);
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  grid-area: digiizquierda1;
+  text-align: left;
+}
+
+.digiderecha1 {
+  margin: 2rem;
+  color: white;
+  background-color: rgba(21, 30, 63, 0.65);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: digiderecha1;
+}
+
+.digiizquierda2 {
+  margin: 2rem;
+  color: white;
+  background-color: rgba(21, 30, 63, 0.65);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: digiizquierda2;
+  text-align: left;
+}
+
+.digiderecha2 {
+  margin: 2rem;
+  color: white;
+  background-color: rgba(21, 30, 63, 0.65);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: digiderecha2;
+}
+
+.fotos {
+  width: 250px;
+  height: 250px;
+}
+
+.registro {
+  background: black;
+  background-image: url(../img/fondops.jpg);
+}
+
+.Crash {
+  background-image: url(../img/1366_2000.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+}
+
+.titulocrash {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.26);
+  text-align: center;
+}
+
+.paginacrash {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.foto1 {
+  margin: 2rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.26);
+  display: flex;
+  grid-column: 1/4;
+  grid-row: 1/1;
+  align-items: center;
+  text-align: center;
+}
+
+.foto2 {
+  margin: 2rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.26);
+  display: flex;
+  flex-direction: column;
+  grid-column: 1/2;
+  grid-row: 2/4;
+  align-items: center;
+  text-align: center;
+}
+
+.foto3 {
+  margin: 2rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.26);
+  display: flex;
+  flex-direction: column;
+  grid-column: 2/2;
+  grid-row: 2/4;
+  align-items: center;
+  text-align: center;
+}
+
+.foto4 {
+  margin: 2rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.26);
+  display: flex;
+  flex-direction: column;
+  grid-column: 3/4;
+  grid-row: 2/4;
+  align-items: center;
+  text-align: center;
+}
+
+.fotos {
+  width: 250px;
+  height: 250px;
+}
+
+.slide {
+  margin-top: 10px;
+}
+.slide img {
+  height: 65vh;
+}/*# sourceMappingURL=main.css.map */

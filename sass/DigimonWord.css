@@ -18,7 +18,7 @@
   grid-template-columns: minmax(200px, auto);
   grid-template-rows: minmax(200px, auto);
   justify-items: right;
-  grid-template-areas: "digiizquierda1" "digiizquieda1" "digiderecha1" "digiderecha" "digiizquierda2" "digiizquierda2" "digiderecha2" "digiderecha2";
+  grid-template-areas: "digiizquierda1" "digiizquieda1" "digiderecha1" "digiderecha1" "digiizquierda2" "digiizquierda2" "digiderecha2" "digiderecha2";
 }
 
 .digiizquierda1 {
@@ -50,6 +50,7 @@
   align-items: center;
   justify-content: center;
   grid-area: digiizquierda2;
+  text-align: left;
 }
 
 .digiderecha2 {
@@ -60,4 +61,9 @@
   align-items: center;
   justify-content: center;
   grid-area: digiderecha2;
+}
+
+.fotos {
+  width: 250px;
+  height: 250px;
 }/*# sourceMappingURL=DigimonWord.css.map */

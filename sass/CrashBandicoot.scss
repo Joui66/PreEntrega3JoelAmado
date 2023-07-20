@@ -1,0 +1,79 @@
+.Crash {
+    background-image: url(../img/1366_2000.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+}
+
+.titulocrash {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.26);
+    text-align: center;
+}
+
+.paginacrash {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.foto1 {
+    margin: 2rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.26);
+    display: flex;
+    grid-column: 1/4;
+    grid-row: 1/1;
+    align-items: center;
+    text-align: center;
+}
+
+.foto2 {
+    margin: 2rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.26);
+    display: flex;
+    flex-direction: column;
+    grid-column: 1/2;
+    grid-row: 2/4;
+    align-items: center;
+    text-align: center;
+}
+
+.foto3 {
+    margin: 2rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.26);
+    display: flex;
+    flex-direction: column;
+    grid-column: 2/2;
+    grid-row: 2/4;
+    align-items: center;
+    text-align: center;
+}
+
+.foto4 {
+    margin: 2rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.26);
+    display: flex;
+    flex-direction: column;
+    grid-column: 3/4;
+    grid-row: 2/4;
+    align-items: center;
+    text-align: center;
+}
+
+.fotos {
+    width: 250px;
+    height: 250px;
+}
+
+.slide {
+    img {
+        height: 65vh;
+    }
+    margin-top: 10px;
+}
+
