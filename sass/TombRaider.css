@@ -1,0 +1,80 @@
+.TomRaider {
+  background-image: url(../img/fondotr.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.portada {
+  width: 100%;
+  height: 500px;
+}
+
+.textos {
+  color: white;
+  background-color: rgba(231, 248, 178, 0.2196078431);
+  text-align: center;
+}
+
+.slide {
+  margin-top: 10px;
+}
+
+.slide img {
+  height: 55vh;
+}
+
+.imagenes {
+  padding: 30px;
+  display: grid;
+  gap: 1rem;
+}
+.imagenes .imagenestomb {
+  margin: 2rem;
+  color: white;
+  background-color: rgba(231, 248, 178, 0.0666666667);
+  display: flex;
+  align-items: center;
+  text-align: inherit;
+}
+
+.direccion {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  justify-content: center;
+  align-items: flex-start;
+}
+.direccion .tomb0 {
+  margin: 2rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.direccion .tomb1 {
+  margin: 2rem;
+  color: white;
+  background-color: rgba(231, 248, 178, 0.0666666667);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: inherit;
+}
+.direccion .tomb2 {
+  margin: 2rem;
+  color: white;
+  background-color: rgba(231, 248, 178, 0.0666666667);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: inherit;
+}
+.direccion .tomb3 {
+  margin: 2rem;
+  color: white;
+  background-color: rgba(231, 248, 178, 0.0666666667);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: inherit;
+}/*# sourceMappingURL=TombRaider.css.map */

@@ -39,13 +39,6 @@ body {
   min-height: 100vh;
 }
 
-.contenedor {
-  margin: 2rem;
-  color: black;
-  display: flex;
-  justify-content: center;
-}
-
 .digimon {
   background-image: url(../img/Fondo\ Digimon.jpg);
   background-repeat: no-repeat;
@@ -198,4 +191,135 @@ body {
 }
 .slide img {
   height: 65vh;
+}
+
+.Spyro {
+  background-image: url(../img/spyro-reignited-trilogy-201845174836_5.jpg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+}
+.Spyro .titulospyro {
+  color: #292E1E;
+  background-color: rgba(137, 43, 226, 0.185);
+  text-align: center;
+}
+.Spyro .imagenesspyro {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1rem;
+}
+.Spyro .imagenesspyro .descripcion1 {
+  margin: 2rem;
+  color: white;
+  background-color: rgba(238, 130, 238, 0.295);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.Spyro .imagenesspyro .descripcion2 {
+  margin: 2rem;
+  color: white;
+  background-color: rgba(238, 130, 238, 0.295);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  text-align: center;
+}
+.Spyro .imagenesspyro .descripcion3 {
+  margin: 2rem;
+  color: white;
+  background-color: rgba(238, 130, 238, 0.295);
+  border-radius: 12px;
+  align-items: center;
+  text-align: center;
+}
+.Spyro .posiciongif {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: space-around;
+}
+
+.TomRaider {
+  background-image: url(../img/fondotr.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.portada {
+  width: 100%;
+  height: 500px;
+}
+
+.textos {
+  color: white;
+  background-color: rgba(231, 248, 178, 0.2196078431);
+  text-align: center;
+}
+
+.slide {
+  margin-top: 10px;
+}
+
+.slide img {
+  height: 55vh;
+}
+
+.imagenes {
+  padding: 30px;
+  display: grid;
+  gap: 1rem;
+}
+.imagenes .imagenestomb {
+  margin: 2rem;
+  color: white;
+  background-color: rgba(231, 248, 178, 0.0666666667);
+  display: flex;
+  align-items: center;
+  text-align: inherit;
+}
+
+.direccion {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  justify-content: center;
+  align-items: flex-start;
+}
+.direccion .tomb0 {
+  margin: 2rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.direccion .tomb1 {
+  margin: 2rem;
+  color: white;
+  background-color: rgba(231, 248, 178, 0.0666666667);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: inherit;
+}
+.direccion .tomb2 {
+  margin: 2rem;
+  color: white;
+  background-color: rgba(231, 248, 178, 0.0666666667);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: inherit;
+}
+.direccion .tomb3 {
+  margin: 2rem;
+  color: white;
+  background-color: rgba(231, 248, 178, 0.0666666667);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: inherit;
 }/*# sourceMappingURL=main.css.map */

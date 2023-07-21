@@ -1,0 +1,50 @@
+.Spyro {
+    background-image: url(../img/spyro-reignited-trilogy-201845174836_5.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    .titulospyro {
+        color: #292E1E;
+        background-color: rgba(137, 43, 226, 0.185);
+        text-align: center;
+    }
+    .imagenesspyro {
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        gap: 1rem;
+        .descripcion1 {
+            margin: 2rem;
+            color: white;
+            background-color: rgba(238, 130, 238, 0.295);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+        .descripcion2 {
+            margin: 2rem;
+            color: white;
+            background-color: rgba(238, 130, 238, 0.295);
+            border-radius: 12px;
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+            text-align: center;
+        }
+        .descripcion3 {
+            margin: 2rem;
+            color: white;
+            background-color: rgba(238, 130, 238, 0.295);
+            border-radius: 12px;
+            align-items: center;
+            text-align: center;
+        }
+    }
+    .posiciongif {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        justify-content: space-around;
+    }
+    
+}
